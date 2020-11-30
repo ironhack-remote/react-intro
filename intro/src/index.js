@@ -20,7 +20,7 @@ function App(args) {
   console.log("args:", args);
   return (
     <div className="App">
-      <h1>This is my app</h1>
+      <h1 name="marta">This is my app</h1>
       <SayHi name="marta" />
       <Element />
       <Element />
