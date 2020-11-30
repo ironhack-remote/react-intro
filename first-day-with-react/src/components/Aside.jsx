@@ -1,7 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Aside extends Component {
-  render() {
-    return <div> textInComponent </div>;
-  }
-}
+const Aside = () => {
+  return (
+    <aside style={{ width: "300px" }}>
+      <h5>Related articles</h5>
+      <p>Lorem</p>
+      <p>Lorem</p>
+      <p>Lorem</p>
+      <p>Lorem</p>
+      <p>Lorem</p>
+      <p>Lorem</p>
+    </aside>
+  );
+};
+
+export default Aside;
